@@ -1,0 +1,33 @@
+.about {
+  padding: 4%;
+  margin: 5%;
+  background-color: aliceblue;
+  border-radius: 2%;
+}
+
+.my-image-2 {
+  width: 10%;
+  border: 0.1px solid aqua;
+  border-radius: 50%;
+}
+
+.social {
+  /* display: flex; */
+  margin-left: 2%;
+  margin-right: 2%;
+  text-decoration: none;
+  color: black;
+
+  /* justify-content: space-evenly; */
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logos {
+  width: 5%;
+}
+#html {
+  width: 4%;
+}

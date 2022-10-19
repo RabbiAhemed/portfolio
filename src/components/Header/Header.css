@@ -9,8 +9,11 @@
 .my-intro {
   text-align: start;
 }
+.my-name {
+  font-weight: bolder;
+}
 .my-image {
-  width: 10%;
+  width: 20%;
   border: 2px dashed aqua;
   border-radius: 50%;
 }
