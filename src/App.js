@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import Main from "./Layout/Main";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   const router = createBrowserRouter([
@@ -31,6 +32,10 @@ function App() {
           path: "/projects",
           loader: () => fetch("data.json"),
           element: <Projects></Projects>,
+        },
+        {
+          path: "*",
+          element: <NotFound></NotFound>,
         },
       ],
     },
