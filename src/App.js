@@ -14,18 +14,22 @@ function App() {
       children: [
         {
           path: "/",
+          loader: () => fetch("data.json"),
           element: <Home></Home>,
         },
         {
           path: "/home",
+          loader: () => fetch("data.json"),
           element: <Home></Home>,
         },
+
         {
           path: "/about",
           element: <About></About>,
         },
         {
           path: "/projects",
+          loader: () => fetch("data.json"),
           element: <Projects></Projects>,
         },
       ],

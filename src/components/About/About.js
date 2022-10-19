@@ -16,7 +16,7 @@ const About = () => {
       ></img>
       <h2 className="my-name pt-2">MD. RABBI AHEMED</h2>
       <p className="fw-bold" style={{ textAlign: "start" }}>
-        Hi I am Rabbi. A MERN STACK Developer from Bangldesh. I love
+        Hi I am Rabbi. A MERN STACK Developer from Bangladesh. I love
         coding,solving problems,building projects,reading books. I believe
         ,there's no limit of learning!
       </p>

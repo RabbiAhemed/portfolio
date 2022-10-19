@@ -1,0 +1,68 @@
+[
+  
+    {
+          "id": 1,
+          "title": "Brain Up",
+          "details": "Quiz Website",
+          "img": "https://i.ibb.co/j62SVMJ/brainup.jpg",
+          "live": "https://brain-up.netlify.app/"
+      },
+  {
+          "id": 2,
+          "title": "News Bee",
+          "details": "News Website",
+          "img": "https://i.ibb.co/j62SVMJ/brainup.jpg",
+          "live": "http://thenewsbee.netlify.app/"
+      },
+  {
+          "id": 3,
+          "title": "The Fitness Factory",
+          "details": "Fitness Activity Website",
+          "img": "https://i.ibb.co/j62SVMJ/brainup.jpg",
+          "live": "https://thefitnessfactory.netlify.app/"
+      },
+  
+
+  {
+          "id": 4,
+          "title": "Super 5 ",
+          "details": "Football Player Selection Website",
+          "img": "https://i.ibb.co/JvZsWhs/Screenshot-2022-10-19-205243.jpg",
+          "live": "https://super-5-football.netlify.app"
+      },
+      {
+        "id": 5,
+        "title": "Tech Star ",
+        "details": "E-commerce Website",
+        "img": "https://i.ibb.co/rvPqtFd/Screenshot-2022-10-19-211958.jpg",
+        "live": "https://tech-star.netlify.app/"
+    },
+    
+    {
+        "id": 6,
+        "title": "10 Minute School",
+        "details": "Ed-tech Website",
+        "img": "https://i.ibb.co/VH8V3Jw/Screenshot-2022-10-19-212251.jpg",
+        "live": "https://10minutes-school-edtech-website.netlify.app/"
+    }
+    ,
+    
+    {
+        "id": 7,
+        "title": "World Cup Fixture",
+        "details": "World Cup Fixture Website",
+        "img": "https://i.ibb.co/yW5HkvB/Screenshot-2022-10-19-212531.jpg",
+        "live": "https://world-cup-fixtures.netlify.app/second-website.html"
+    }
+    ,
+    
+    {
+        "id": 8,
+        "title": "Money Management Plan",
+        "details": "Money Management Planning Website",
+        "img": "https://i.ibb.co/G271gqS/Screenshot-2022-10-19-212826.jpg",
+        "live": "https://money-management-plan.netlify.app/"
+    }
+  
+  
+  ]
