@@ -14,9 +14,9 @@ const About = () => {
         border="0"
         className="my-image-2 img-fluid mt-5"
       ></img>
-      <h2 className="my-name pt-2">MD. RABBI AHEMED</h2>
+      <h2 className="my-name pt-2">RABBI AHEMED</h2>
       <p className="fw-bold" style={{ textAlign: "start" }}>
-        Hi I am Rabbi. A MERN STACK Developer from Bangladesh. I love
+        Hi I am Rabbi. A MERN stack Developer from Bangladesh. I love
         coding,solving problems,building projects,reading books. I believe
         ,there's no limit of learning!
       </p>
@@ -25,27 +25,28 @@ const About = () => {
         <img
           src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
           alt="html5"
-          srcset=""
+          srcSet=""
           id="html"
         />
         <img
           className="logos"
           src="https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png"
           alt="css"
-          srcset=""
+          srcSet=""
         />
         <img
           className="logos"
           src="https://live.staticflickr.com/65535/52412638962_12e932256a_o.png"
           alt="javascript"
-          srcset=""
+          srcSet=""
         />
         <img
           className="logos"
           src="https://live.staticflickr.com/65535/52413593240_e00326e727_o.png"
           alt="react"
-          srcset=""
+          srcSet=""
         />
+        <img src="https://i.ibb.co/LrSQVXB/firebase-icon.png" alt="" />
       </div>
       <div className="fw-bold py-2" style={{ textAlign: "start" }}>
         <p>Email: rabbiahemed1@gmail.com</p>
@@ -58,7 +59,7 @@ const About = () => {
 
         <a
           className="social"
-          href="http://facebook.com"
+          href="https://www.facebook.com/rabbiahmedlimon/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -66,7 +67,7 @@ const About = () => {
         </a>
         <a
           className="social"
-          href="http://github.com"
+          href="https://github.com/RabbiAhemed"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -74,7 +75,7 @@ const About = () => {
         </a>
         <a
           className="social"
-          href="http://linkedin.com"
+          href="https://www.linkedin.com/in/rabbi-ahemed/"
           target="_blank"
           rel="noopener noreferrer"
         >

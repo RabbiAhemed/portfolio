@@ -5,7 +5,7 @@ const Project = ({ project }) => {
   const { title, img, details, live } = project;
   return (
     <div>
-      <Card style={{ width: "24rem" }}>
+      <Card style={{}} className="my-4">
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>

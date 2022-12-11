@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home/Home";
@@ -6,6 +5,7 @@ import Main from "./Layout/Main";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import NotFound from "./components/NotFound/NotFound";
+import ContactMe from "./components/ContactMe/ContactMe";
 
 function App() {
   const router = createBrowserRouter([
@@ -27,6 +27,10 @@ function App() {
         {
           path: "/about",
           element: <About></About>,
+        },
+        {
+          path: "/contact",
+          element: <ContactMe></ContactMe>,
         },
         {
           path: "/projects",
