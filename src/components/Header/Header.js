@@ -1,19 +1,38 @@
 import React from "react";
-import TypingEffect from "../TypingEffect/TypingEffect";
+// import Particles from "react-particles-js";
+// import particlesConfig from "../../ParticlesConfig";
 import "./Header.css";
+
+import { TypeAnimation } from "react-type-animation";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="my-intro">
-        <p>HI THERE,I AM</p>
+        <strong>Hi There, I am</strong>
         <h2 className="my-name fw-bold">MD. RABBI AHEMED</h2>
-        <h4>
-          <TypingEffect></TypingEffect>
-        </h4>
+        <h6>
+          <TypeAnimation
+            className="typing-animation"
+            // Same String at the start will only be typed once, initially
+            sequence={[
+              "Web Developer",
+              1000,
+              "Programmer",
+              1000,
+              "Tech Lover",
+              1000,
+            ]}
+            speed={60} // Custom Speed from 1-99 - Default Speed: 40
+            style={{ fontSize: "1.5em" }}
+            // style={{ fontSize: "2em" }}
+            wrapper="span" // Animation will be rendered as a <span>
+            repeat={Infinity} // Repeat this Animation Sequence infinitely
+          />
+        </h6>
 
         <a
-          href="https://drive.google.com/file/d/1CYtwN-3HwSJYs47RniRAjqzs-gxwbwFY/view?usp=sharing"
+          href="https://drive.google.com/file/d/1XchSnB3eGOZ5sw6ZGByf8d1ndahG25B7/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -58,6 +77,7 @@ const Header = () => {
           </button>
         </a>
       </div>
+
       <div className="my-image">
         <img
           src="https://i.ibb.co/c25GsfB/removed-bg.png"
@@ -66,6 +86,8 @@ const Header = () => {
           className="img-fluid rounded-circle"
         />
       </div>
+      {/* <Test></Test> */}
+      {/* <Particles height="100vh" width="100vw" params={particlesConfig} /> */}
     </div>
   );
 };

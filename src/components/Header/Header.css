@@ -1,15 +1,10 @@
 .header {
   padding: 10% 0%;
-  background-color: whitesmoke;
+  background-color: rgb(252, 251, 251);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(
-      to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
-    ),
-    url(../../../common-bg.svg);
+  /* background: url(../../../common-bg.svg); */
   background-position: center;
 }
 
@@ -17,8 +12,8 @@
   text-align: start;
 }
 .my-name {
-  font-weight: bolder;
-  font-family: "Quantico";
+  font-weight: bold;
+  font-family: "Kanit";
 }
 .my-image {
   width: 20%;
@@ -95,4 +90,11 @@
     transform: translateY(0%);
   }
 }
+
 /* button end */
+/*  */
+@media screen and (max-width: 426px) {
+  .my-image {
+    display: none;
+  }
+}

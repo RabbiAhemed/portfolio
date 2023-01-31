@@ -1,9 +1,18 @@
 .contact {
-  background: linear-gradient(
-      to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
-    ),
-    url(../../../common-bg.svg);
-  background-position: center;
+  /* background: linear-gradient(
+    to right,
+    rgba(0, 98, 185, 0.8),
+    rgba(0, 98, 185, 0.8)
+  ); */
+  background-color: #eafdfa;
+  padding-top: 8%;
+  /* url(../../../common-bg.svg); */
+  /* background-position: center; */
+}
+/* .contact-me {
+  padding-top: 8%;
+} */
+.font-para {
+  font-size: 1rem;
+  font-weight: 600;
 }

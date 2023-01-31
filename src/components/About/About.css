@@ -1,18 +1,18 @@
 body a {
   text-decoration: none;
 }
-
 .about {
   padding: 4%;
-  margin: 5%;
-  background-color: aliceblue;
-  border-radius: 2%;
+  background-color: rgb(246, 251, 255);
 }
 
 .my-image-2 {
-  width: 10%;
+  width: 15%;
   border: 0.1px solid aqua;
   border-radius: 50%;
+}
+#my-name {
+  font-family: "Solitreo";
 }
 
 .social {
@@ -24,7 +24,18 @@ body a {
 
   /* justify-content: space-evenly; */
 }
-.skills {
+/* .skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.front-end {
+  /* background-color: red; */
+  border: 20px solid green;
+  border-radius: 50px;
+}
+.skills-image {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -34,4 +45,43 @@ body a {
 }
 #html {
   width: 4%;
+}
+
+.about-para {
+  text-align: start;
+  font-weight: 600;
+}
+.info-right {
+  font-weight: 600;
+}
+.info-left {
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .my-image-2 {
+    display: none;
+  }
+  #about-me {
+    margin-bottom: 3%;
+  }
+  .informations {
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .info-right {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 426px) {
+  #facebook {
+    display: none;
+    /* visibility: hidden; */
+  }
+  .my-image-2 {
+    width: 50%;
+    border: 0.1px solid aqua;
+    border-radius: 50%;
+  }
 }

@@ -1,0 +1,17 @@
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+.view {
+  color: aquamarine;
+}
+.card-img {
+  width: 100px;
+  height: 250px;
+}
+.card-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

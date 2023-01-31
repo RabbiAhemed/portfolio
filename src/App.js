@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import NotFound from "./components/NotFound/NotFound";
 import ContactMe from "./components/ContactMe/ContactMe";
+import Blog from "./components/Blog/Blog";
+import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
 
 function App() {
   const router = createBrowserRouter([
@@ -33,9 +35,25 @@ function App() {
           element: <ContactMe></ContactMe>,
         },
         {
+          path: "/blogs",
+          element: <Blog></Blog>,
+        },
+
+        {
           path: "/projects",
-          loader: () => fetch("data.json"),
+          loader: () =>
+            fetch("https://portfolio-server-chi.vercel.app/allProjects"),
           element: <Projects></Projects>,
+        },
+
+        {
+          path: "/projects/:id",
+          element: <ProjectDetail></ProjectDetail>,
+          loader: async ({ params }) => {
+            return fetch(
+              `https://portfolio-server-chi.vercel.app/projects/${params.id}`
+            );
+          },
         },
         {
           path: "*",

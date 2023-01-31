@@ -2,11 +2,23 @@ import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="footer text-white py-5 mt-5">
-      <p className="copyright">2022 © All rights reserved</p>
-      <p className="">
-        Handcrafted by @ <span className="my-name">Rabbi_Ahemed</span>.
-      </p>
+    <div className="footer text-white py-5 ">
+      <img
+        src="https://i.ibb.co/wdqJgzK/cover-removebg-preview.png"
+        // width="20%"
+        height="50"
+        className="logo"
+        alt="React Bootstrap logo"
+      />
+      <br />
+      <br />
+
+      <div>
+        <p className="">
+          <span className="">Handcrafted by Rabbi Ahemed</span>.
+        </p>
+        <p className="copyright">Copyright © 2023 All rights reserved</p>
+      </div>
     </div>
   );
 };

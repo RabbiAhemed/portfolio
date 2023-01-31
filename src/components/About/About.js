@@ -1,86 +1,133 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { FaFacebook } from "@fortawesome/free-solid-svg-icons";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import React from "react";
 import "./About.css";
 
 const About = () => {
   return (
-    <div className="mt-5 about">
-      <h2>About Me</h2>
+    <div className="about" id="about">
+      <h2 className="fw-bold" id="about-me">
+        About Me
+      </h2>
       <img
         src="https://i.ibb.co/c25GsfB/removed-bg.png"
         alt="removed-bg"
         border="0"
         className="my-image-2 img-fluid mt-5"
       ></img>
-      <h2 className="my-name pt-2">RABBI AHEMED</h2>
-      <p className="fw-bold" style={{ textAlign: "start" }}>
-        Hi I am Rabbi. A MERN stack Developer from Bangladesh. I love
-        coding,solving problems,building projects,reading books. I believe
-        ,there's no limit of learning!
-      </p>
-      <h2>MY SKILLS</h2>
-      <div className="skills">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-          alt="html5"
-          srcSet=""
-          id="html"
-        />
-        <img
-          className="logos"
-          src="https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png"
-          alt="css"
-          srcSet=""
-        />
-        <img
-          className="logos"
-          src="https://live.staticflickr.com/65535/52412638962_12e932256a_o.png"
-          alt="javascript"
-          srcSet=""
-        />
-        <img
-          className="logos"
-          src="https://live.staticflickr.com/65535/52413593240_e00326e727_o.png"
-          alt="react"
-          srcSet=""
-        />
-        <img src="https://i.ibb.co/LrSQVXB/firebase-icon.png" alt="" />
+      <h2 className="my-name pt-2" id="my-name">
+        MD. RABBI AHEMED
+      </h2>
+      <div className="about-para">
+        <p>
+          I'm a Frontend Web Developer building the Front-end of Websites and
+          Web Applications that leads to the success of the overall product.
+          Check out some of my work in the Projects section.
+        </p>
+        <p>
+          I'm interested in MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack web
+          development. I am a hardworking, confident, enthusiastic Web developer
+          and I want to utilize my knowledge and personal skills in Web
+          Development. Also eagerly wants to serve a professional organization
+          to the best of my knowledge with true dedication, hard work, and
+          commitment.
+        </p>
+        <p>
+          I'm open to Job opportunities where I can contribute, learn and grow.
+          If you have a good opportunity that matches my skills and experience
+          then don't hesitate to contact me.
+        </p>
       </div>
-      <div className="fw-bold py-2" style={{ textAlign: "start" }}>
-        <p>Email: rabbiahemed1@gmail.com</p>
-        <p>Primary Contact No: +8801791-177273</p>
-        <p>Secondary Contact No: +8801884-418569</p>
-        <p>Address: Dhaka,Bangladesh.</p>
-      </div>
-      <div>
-        <FontAwesomeIcon icon={FaFacebook} />
+      {/* <h2>MY SKILLS</h2> */}
+      {/* <div className="skills">
+        <div className="skills-image front-end">
+          <img
+            className="logos"
+            src="https://i.ibb.co/C0r8wrz/icons8-html-5-96.png"
+            alt="html5"
+            id="html"
+          />
+          <img
+            className="logos"
+            src="https://i.ibb.co/3WFLPP6/icons8-bootstrap-96.png"
+            alt="bootstrap"
+            id="bootstrap"
+          />
+          <img
+            className="logos"
+            src="https://i.ibb.co/ZNhSWfH/tailwind-css-24.png"
+            alt="tailwind"
+            id="tailwind"
+          />
+          <img
+            className="logos"
+            src="https://i.ibb.co/pbwWgzd/javascript-24.png"
+            alt="javascript"
+            id="javascript"
+          />
+          <img
+            className="logos"
+            src="https://i.ibb.co/XCMSVCH/react-24.png"
+            alt="react"
+            id="react"
+          />
+          <img
+            className="logos"
+            src="https://i.ibb.co/YWCtWDb/firebase-24.png"
+            alt="firebase"
+            id="firebase"
+          />
+        </div>
+        <div className="skills-image back-end">
+          <img
+            className="logos"
+            src="https://i.ibb.co/XFNJq0C/mongodb-24.png"
+            alt="mongodb"
+            id="mongodb"
+          />
+          <img
+            className="logos"
+            src="https://i.ibb.co/WPySNds/express-js-icon-12.png"
+            alt="express"
+            id="express"
+          />
 
-        <a
-          className="social"
-          href="https://www.facebook.com/rabbiahmedlimon/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaFacebook></FaFacebook>
-        </a>
-        <a
-          className="social"
-          href="https://github.com/RabbiAhemed"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub></FaGithub>
-        </a>
-        <a
-          className="social"
-          href="https://www.linkedin.com/in/rabbi-ahemed/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin></FaLinkedin>
-        </a>
+          <img
+            className="logos"
+            src="https://i.ibb.co/WDd3jHt/nodejs.png"
+            alt="nodejs"
+            id="nodejs"
+          />
+        </div>
+      </div> */}
+      <div className="informations">
+        <div className="py-2 info-left" style={{ textAlign: "start" }}>
+          <p>Email: rabbiahemed1@gmail.com</p>
+          <p>Contact No: +8801791-177273</p>
+          <p>Address: Dhaka,Bangladesh.</p>
+        </div>
+
+        <div className="py-2  info-right" style={{ textAlign: "start" }}>
+          <p>Linkedin: Md. Rabbi Ahemed</p>
+          <p>
+            Github:
+            <a
+              href="https://github.com/RabbiAhemed"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://github.com/RabbiAhemed
+            </a>
+          </p>
+          <p id="facebook">
+            Facebook:{" "}
+            <a
+              href="https://www.facebook.com/rabbiahmedlimon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://www.facebook.com/rabbiahmedlimon
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
