@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./Project.css";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Project = ({ project }) => {
   const { title, banner, details, live } = project;
-
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div>
-      <Card style={{}} className="my-4">
+      <Card style={{}} className="my-4" data-aos="flip-left">
         <Card.Img variant="top" src={banner} className="card-img" />
         <Card.Body>
           <Card.Title>{title}</Card.Title>

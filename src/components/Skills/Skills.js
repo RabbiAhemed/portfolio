@@ -1,9 +1,16 @@
 import React from "react";
 import { Container, ProgressBar } from "react-bootstrap";
 import "./Skills.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Skills = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="skills-section" id="skills">
+    <div className="skills-section" id="skills" data-aos="zoom-in">
       <h2 className="fw-bold">My Skills</h2>
       <Container className="skills text-center mx-auto">
         <div className="skill my-3">

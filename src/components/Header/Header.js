@@ -78,7 +78,7 @@ const Header = () => {
         </a>
       </div>
 
-      <div className="my-image">
+      <div className="my-image animate__animated animate__fadeInRight">
         <img
           src="https://i.ibb.co/c25GsfB/removed-bg.png"
           alt="removed-bg"
