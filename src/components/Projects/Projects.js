@@ -29,11 +29,11 @@ const Projects = () => {
             <Project key={project.id} project={project}></Project>
           ))}
       </div>
-      {/* <Link className="" to="">
-        <Button variant="light border border-dark" className="view fw-bold">
+      <Link className="" to="">
+        <Button variant="light border border-dark" className="view fw-bold ">
           See All Projects
         </Button>
-      </Link> */}
+      </Link>
     </div>
   );
 };

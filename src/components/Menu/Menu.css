@@ -1,10 +1,10 @@
-/* .menu {
-  overflow: hidden;
-  background-color: #fcfbfb;
-  position: s;
-  top: 0;
- 
-} */
+.menu {
+  /* overflow: hidden; */
+  /* background-color: #fcfbfb; */
+  /* position: sticky;
+  top: 10px; */
+}
+
 .menu a {
   text-decoration: none;
   color: black;

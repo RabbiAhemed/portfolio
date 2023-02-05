@@ -6,8 +6,8 @@ import "./Menu.css";
 
 const Menu = () => {
   return (
-    <div>
-      <Navbar bg="light" expand="lg">
+    <div id="top-menu">
+      <Navbar bg="" expand="lg">
         <Container className="menu">
           <Navbar.Brand href="#home">
             <Link to="/">

@@ -3,7 +3,10 @@ body a {
 }
 .about {
   padding: 4%;
-  background-color: rgb(246, 251, 255);
+  /* background-color: rgb(246, 251, 255); */
+}
+#about-me {
+  /* font-family: "Maven Pro"; */
 }
 
 .my-image-2 {
@@ -49,7 +52,11 @@ body a {
 
 .about-para {
   text-align: start;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: "Maven Pro";
+  line-height: 2;
+  text-align: justify;
+  /* text-justify: inter-word; */
 }
 .info-right {
   font-weight: 600;

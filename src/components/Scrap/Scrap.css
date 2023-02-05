@@ -1,5 +1,28 @@
-.scrap {
+/* .scrap {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+} */
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10%;
+}
+/*  */
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+#bottom-icon-container {
+  margin-top: 8%;
+}
+#github {
+  margin-left: 2%;
+}
+
+.star {
+  color: red;
 }

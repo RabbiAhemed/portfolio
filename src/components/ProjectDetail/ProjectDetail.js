@@ -2,17 +2,17 @@ import React from "react";
 
 import { Button, Carousel, Container } from "react-bootstrap";
 import { useLoaderData } from "react-router-dom";
-import "./Details.css";
+import "./ProjectDetail.css";
 const ProjectDetail = () => {
   const project = useLoaderData();
-  const { id, title, images, git, details, live, features } = project;
+  const { title, images, git, details, live, features } = project;
 
   const client = git[0]?.client;
   const server = git[1]?.server;
 
   return (
     <div>
-      <section className="project-hero py-5">
+      <section className="project-hero py-5 bg-info">
         <h1 className="my-5 fw-bold">{title}</h1>
         <h5 className="my-5">
           This page contains the details of {title} Website which includes the
@@ -47,11 +47,15 @@ const ProjectDetail = () => {
       <section className="project-main m-5">
         {/* carousel container */}
         <Container>
-          <Carousel className="mx-auto text-center" variant="light">
+          <Carousel
+            className="mx-auto text-center border border-white rounded"
+            id="slider"
+            variant="dark"
+          >
             {images.map((pic, index) => (
-              <Carousel.Item interval={900}>
+              <Carousel.Item interval={2000}>
                 <img
-                  className="screenshot"
+                  className="screenshot rounded"
                   src={pic}
                   alt="First slide"
                   key={index}

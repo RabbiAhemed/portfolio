@@ -14,6 +14,11 @@
   text-align: start;
 }
 
+#slider {
+  background-color: #f1f2f6;
+  /* background-color: red; */
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .screenshots {
@@ -31,10 +36,17 @@
     align-items: center;
   }
 }
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .screenshot {
     width: 250px;
     height: 150px;
+  }
+}
+@media only screen and (min-width: 425px) {
+  #slider {
+    padding-top: 8%;
+    padding-bottom: 8%;
   }
 }

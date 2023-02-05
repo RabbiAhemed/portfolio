@@ -19,30 +19,25 @@ const About = () => {
           border="0"
           className="my-image-2 img-fluid mt-5"
         ></img>
-        <h2
+        {/* <h2
           className="my-name pt-2 animate__animated animate__zoomIn"
           id="my-name"
         >
           MD. RABBI AHEMED
-        </h2>
+        </h2> */}
+        {/*  that leads to the success of the overall product */}
         <div className="about-para">
           <p>
             I'm a Frontend Web Developer building the Front-end of Websites and
-            Web Applications that leads to the success of the overall product.
-            Check out some of my work in the Projects section.
-          </p>
-          <p>
+            Web Applications. Check out some of my work in the Projects section.
             I'm interested in MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack
             web development. I am a hardworking, confident, enthusiastic Web
             developer and I want to utilize my knowledge and personal skills in
             Web Development. Also eagerly wants to serve a professional
             organization to the best of my knowledge with true dedication, hard
-            work, and commitment.
-          </p>
-          <p>
-            I'm open to Job opportunities where I can contribute, learn and
-            grow. If you have a good opportunity that matches my skills and
-            experience then don't hesitate to contact me.
+            work, and commitment. I'm open to Job opportunities where I can
+            contribute, learn and grow. If you have a good opportunity that
+            matches my skills and experience then don't hesitate to contact me.
           </p>
         </div>
         {/* <h2>MY SKILLS</h2> */}
@@ -109,13 +104,13 @@ const About = () => {
       </div> */}
         <div className="informations">
           <div className="py-2 info-left" style={{ textAlign: "start" }}>
-            <p>Email: rabbiahemed1@gmail.com</p>
+            {/* <p>Email: rabbiahemed1@gmail.com</p>
             <p>Contact No: +8801791-177273</p>
-            <p>Address: Dhaka,Bangladesh.</p>
+            <p>Address: Dhaka,Bangladesh.</p> */}
           </div>
 
           <div className="py-2  info-right" style={{ textAlign: "start" }}>
-            <p>Linkedin: Md. Rabbi Ahemed</p>
+            {/* <p>Linkedin: Md. Rabbi Ahemed</p>
             <p>
               Github:
               <a
@@ -135,7 +130,7 @@ const About = () => {
               >
                 https://www.facebook.com/rabbiahmedlimon
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

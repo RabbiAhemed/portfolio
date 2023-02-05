@@ -1,5 +1,8 @@
 body {
-  font-family: Kanit;
+  /* font-family: Kanit; */
+  /* font-family: "Maven Pro"; */
+  font-family: "Rajdhani" !important;
+  background-color: white;
 }
 
 .App {

@@ -2,7 +2,22 @@ body a {
   text-decoration: none;
   color: black;
 }
-
+#project {
+  /* background-color: yellow; */
+  border: 1px solid #faf7f7;
+  box-shadow: 4px 4px 4px 4px #dcdcdc;
+}
+#project .card-img {
+  border-radius: 0.25rem;
+  padding: 3.5%;
+}
+#title {
+  font-size: 1.5em;
+}
+#subtitle {
+  text-align: justify;
+  font-weight: 300;
+}
 .view {
   color: aquamarine;
 }

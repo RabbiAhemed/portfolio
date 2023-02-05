@@ -1,6 +1,8 @@
 .header {
   padding: 10% 0%;
-  background-color: rgb(252, 251, 251);
+  /* background-color: rgb(252, 251, 251); */
+  /* background-color: #f8f9fa; */
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -12,8 +14,13 @@
   text-align: start;
 }
 .my-name {
-  font-weight: bold;
-  font-family: "Kanit";
+  /* font-weight: bold; */
+  /* font-family: "Kanit"; */
+  /* font-family: "Jura"; */
+  /* font-family: "Baloo Tammudu 2"; */
+  /* font-family: "Maven Pro"; */
+  font-weight: 700;
+  font-size: 12vh;
 }
 .my-image {
   width: 20%;

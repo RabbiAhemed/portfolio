@@ -8,10 +8,11 @@ import { TypeAnimation } from "react-type-animation";
 const Header = () => {
   return (
     <div className="header">
-      <div className="my-intro">
-        <strong>Hi There, I am</strong>
-        <h2 className="my-name fw-bold">MD. RABBI AHEMED</h2>
-        <h6>
+      <div className="my-intro  animate__animated animate__fadeInLeft">
+        {/* <strong>Hi There, I am</strong> */}
+        {/* <h2 className="my-name fw-bold">MD. RABBI AHEMED</h2> */}
+        <h1 className="my-name fw-bold">Hi, I’m Rabbi.</h1>
+        <p>
           <TypeAnimation
             className="typing-animation"
             // Same String at the start will only be typed once, initially
@@ -24,12 +25,12 @@ const Header = () => {
               1000,
             ]}
             speed={60} // Custom Speed from 1-99 - Default Speed: 40
-            style={{ fontSize: "1.5em" }}
+            style={{ fontSize: "6vh" }}
             // style={{ fontSize: "2em" }}
             wrapper="span" // Animation will be rendered as a <span>
             repeat={Infinity} // Repeat this Animation Sequence infinitely
           />
-        </h6>
+        </p>
 
         <a
           href="https://drive.google.com/file/d/1XchSnB3eGOZ5sw6ZGByf8d1ndahG25B7/view?usp=sharing"

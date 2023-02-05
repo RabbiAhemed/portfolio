@@ -12,11 +12,11 @@ const Project = ({ project }) => {
   }, []);
   return (
     <div>
-      <Card style={{}} className="my-4" data-aos="flip-left">
+      <Card style={{}} className="my-4" data-aos="flip-left" id="project">
         <Card.Img variant="top" src={banner} className="card-img" />
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <Card.Text>{details.slice(0, 120)}...</Card.Text>
+          <Card.Title id="title">{title}</Card.Title>
+          <Card.Text id="subtitle">{details.slice(0, 143)}...</Card.Text>
           <div className="card-btns">
             <Link className="" to={`/projects/${project.id}`}>
               <Button
