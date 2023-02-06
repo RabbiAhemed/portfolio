@@ -39,7 +39,7 @@ const Menu = () => {
               <a className="nav-link text-black fw-bold" href="#contact">
                 Contact Me
               </a>
-              <a className="nav-link text-black fw-bold" href="#blog">
+              <a className="nav-link text-black fw-bold" href="/blog">
                 <Link to="blogs">Blogs</Link>
               </a>
             </Nav>

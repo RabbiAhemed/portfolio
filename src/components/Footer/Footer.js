@@ -12,6 +12,9 @@ const Footer = () => {
       />
       <br />
       <br />
+      <h4>Living, learning, & leveling up one day at a time.</h4>
+      <br />
+      <br />
 
       <div>
         <p className="">

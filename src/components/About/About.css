@@ -54,7 +54,7 @@ body a {
   text-align: start;
   font-weight: 400;
   font-family: "Maven Pro";
-  line-height: 2;
+  /* line-height: 2; */
   text-align: justify;
   /* text-justify: inter-word; */
 }
@@ -70,6 +70,9 @@ body a {
   }
   #about-me {
     margin-bottom: 3%;
+  }
+  .about-para {
+    line-height: 2.5;
   }
   .informations {
     display: flex;

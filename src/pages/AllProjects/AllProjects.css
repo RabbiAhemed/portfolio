@@ -1,0 +1,21 @@
+.all-project-section {
+  padding: 3% 3% 3% 3%;
+  /* margin: 0%, 0%; */
+  /* background-color: #edfeff; */
+  /* background-color: #add4d0; */
+  /* background-color: #e5f1ef; */
+}
+.all-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5%;
+}
+
+@media only screen and (max-width: 426px) {
+  .all-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20%, 10%; */
+  }
+}

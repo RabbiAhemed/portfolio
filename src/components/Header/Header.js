@@ -12,7 +12,8 @@ const Header = () => {
         {/* <strong>Hi There, I am</strong> */}
         {/* <h2 className="my-name fw-bold">MD. RABBI AHEMED</h2> */}
         <h1 className="my-name fw-bold">Hi, I’m Rabbi.</h1>
-        <p>
+
+        <p id="typing-text">
           <TypeAnimation
             className="typing-animation"
             // Same String at the start will only be typed once, initially
@@ -24,8 +25,7 @@ const Header = () => {
               "Tech Lover",
               1000,
             ]}
-            speed={60} // Custom Speed from 1-99 - Default Speed: 40
-            style={{ fontSize: "6vh" }}
+            speed={30} // Custom Speed from 1-99 - Default Speed: 40
             // style={{ fontSize: "2em" }}
             wrapper="span" // Animation will be rendered as a <span>
             repeat={Infinity} // Repeat this Animation Sequence infinitely

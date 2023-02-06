@@ -26,7 +26,7 @@ const About = () => {
           MD. RABBI AHEMED
         </h2> */}
         {/*  that leads to the success of the overall product */}
-        <div className="about-para">
+        <div className="about-para px-5">
           <p>
             I'm a Frontend Web Developer building the Front-end of Websites and
             Web Applications. Check out some of my work in the Projects section.
@@ -36,9 +36,10 @@ const About = () => {
             Web Development. Also eagerly wants to serve a professional
             organization to the best of my knowledge with true dedication, hard
             work, and commitment. I'm open to Job opportunities where I can
-            contribute, learn and grow. If you have a good opportunity that
-            matches my skills and experience then don't hesitate to contact me.
+            contribute, learn and grow.
           </p>
+          {/*  If you have a good opportunity that
+            matches my skills and experience then don't hesitate to contact me. */}
         </div>
         {/* <h2>MY SKILLS</h2> */}
         {/* <div className="skills">

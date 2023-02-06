@@ -3,11 +3,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Main from "./Layout/Main";
 import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
 import NotFound from "./components/NotFound/NotFound";
 import ContactMe from "./components/ContactMe/ContactMe";
-import Blog from "./components/Blog/Blog";
+import Blog from "./pages/Blog/Blog";
 import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
+import AllProjects from "./pages/AllProjects/AllProjects";
 
 function App() {
   const router = createBrowserRouter([
@@ -40,10 +40,11 @@ function App() {
         },
 
         {
-          path: "/projects",
+          path: "/all-projects",
           loader: () =>
             fetch("https://portfolio-server-chi.vercel.app/allProjects"),
-          element: <Projects></Projects>,
+          // element: <Projects></Projects>,
+          element: <AllProjects></AllProjects>,
         },
 
         {

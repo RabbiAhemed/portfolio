@@ -18,6 +18,9 @@
   background-color: #f1f2f6;
   /* background-color: red; */
 }
+#project-detail {
+  text-align: justify;
+}
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -32,8 +35,17 @@
   }
   .project-main {
     display: flex;
+    gap: 5%;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 3%;
+  }
+  #project-detail {
+    line-height: 2;
+    text-align: justify;
+  }
+  #feature-list {
+    line-height: 2;
   }
 }
 
@@ -42,6 +54,9 @@
   .screenshot {
     width: 250px;
     height: 150px;
+  }
+  #slider {
+    margin-bottom: 20%;
   }
 }
 @media only screen and (min-width: 425px) {

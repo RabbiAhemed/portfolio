@@ -69,11 +69,13 @@ const ProjectDetail = () => {
         <Container className="mx-auto project-overview">
           <h3 className="fw-bold">Project Overview</h3>
 
-          <p>{details}</p>
-          <div className="my-2">
-            <h4 className="fw-bold">Features</h4>
+          <p id="project-detail">{details}</p>
+          <div className="my-5">
+            <h3 className="fw-bold">Features</h3>
             {features.map((feature, index) => (
-              <li key={index}>{feature}</li>
+              <li key={index} id="feature-list">
+                {feature}
+              </li>
             ))}
           </div>
         </Container>

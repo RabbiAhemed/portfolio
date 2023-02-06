@@ -3,11 +3,11 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Project from "../Project/Project";
-import "./Projects.css";
+import Project from "../../components/Project/Project";
+import "./AllProjects.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const Projects = () => {
+const AllProjects = () => {
   const [projects, setProjects] = useState();
   useEffect(() => {
     fetch("https://portfolio-server-chi.vercel.app/allProjects")
@@ -18,12 +18,12 @@ const Projects = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="project-section" data-aos="zoom-in">
-      <h2 className="fw-bold" id="projects">
+    <div className="all-project-section" data-aos="zoom-in">
+      {/* <h2 className="fw-bold" id="projects">
         Recent Projects
-      </h2>
+      </h2> */}
 
-      <div className="projects mx-5 my-5 text-center">
+      <div className="all-projects mx-5 my-5 text-center">
         {projects?.length &&
           projects
             ?.slice(0, 3)
@@ -31,13 +31,8 @@ const Projects = () => {
               <Project key={project.id} project={project}></Project>
             ))}
       </div>
-      <Link className="" to="/all-projects">
-        <Button variant="light border border-dark" className="view fw-bold ">
-          See All Projects
-        </Button>
-      </Link>
     </div>
   );
 };
 
-export default Projects;
+export default AllProjects;

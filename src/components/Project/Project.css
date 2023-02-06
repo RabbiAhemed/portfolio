@@ -5,7 +5,7 @@ body a {
 #project {
   /* background-color: yellow; */
   border: 1px solid #faf7f7;
-  box-shadow: 4px 4px 4px 4px #dcdcdc;
+  box-shadow: 6px 6px 6px 6px #dcdcdc;
 }
 #project .card-img {
   border-radius: 0.25rem;
