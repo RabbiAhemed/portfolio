@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import "./Menu.css";
+import mySvg from "../../rabbi-black.svg";
 
 const Menu = () => {
   return (
@@ -12,11 +13,12 @@ const Menu = () => {
           <Navbar.Brand href="#home">
             <Link to="/">
               <img
-                src="https://i.ibb.co/wdqJgzK/cover-removebg-preview.png"
+                // src="https://i.ibb.co/wdqJgzK/cover-removebg-preview.png"
+                src={mySvg}
                 width="100%"
                 height="50"
-                className="d-inline-block align-top rabbi"
-                alt="React Bootstrap logo"
+                className="d-inline-block align-top rabbi py-2"
+                alt=""
               />
             </Link>
           </Navbar.Brand>
@@ -36,12 +38,15 @@ const Menu = () => {
               <a className="nav-link text-black fw-bold" href="#projects">
                 Projects
               </a>
-              <a className="nav-link text-black fw-bold" href="#contact">
+              <a
+                className="nav-link text-black fw-bold"
+                href="#contact-section"
+              >
                 Contact Me
               </a>
-              <a className="nav-link text-black fw-bold" href="/blog">
-                <Link to="blogs">Blogs</Link>
-              </a>
+              <Link to="/blogs" className="mt-2" id="blog-link">
+                Blogs
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
