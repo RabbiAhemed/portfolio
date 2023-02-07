@@ -8,7 +8,7 @@ import ContactMe from "./components/ContactMe/ContactMe";
 import Blog from "./pages/Blog/Blog";
 import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
 import AllProjects from "./pages/AllProjects/AllProjects";
-
+import ScrollToTop from "react-scroll-to-top";
 function App() {
   const router = createBrowserRouter([
     {
@@ -67,6 +67,7 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router}></RouterProvider>
+      <ScrollToTop smooth />
     </div>
   );
 }
