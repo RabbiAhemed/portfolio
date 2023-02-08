@@ -14,19 +14,30 @@
   }
   #contact-section {
     padding-bottom: 80px;
+    padding-top: 80px;
+  }
+  .contact-subtitle {
+    /* word-spacing: 0.2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto; */
+    font-size: 1.5em;
+    text-align: center;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 426px) {
   #contact-container {
-    max-width: 650px;
-    padding: 2%;
+    max-width: 350px;
+    padding: 5%;
     border: 1px solid #faf7f7;
     /* box-shadow: 6px 6px 6px 6px #dcdcdc; */
     box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
     border-radius: 0.5rem;
   }
   #contact-section {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 .info {

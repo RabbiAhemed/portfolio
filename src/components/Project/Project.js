@@ -16,7 +16,7 @@ const Project = ({ project }) => {
         <Card.Img variant="top" src={banner} className="card-img" />
         <Card.Body>
           <Card.Title id="title">{title}</Card.Title>
-          <Card.Text id="subtitle">{details.slice(0, 143)}...</Card.Text>
+          <Card.Text id="subtitle">{details.slice(0, 140)}...</Card.Text>
           <div className="card-btns">
             <Link className="" to={`/projects/${project.id}`}>
               <Button

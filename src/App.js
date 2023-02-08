@@ -4,12 +4,13 @@ import Home from "./components/Home/Home";
 import Main from "./Layout/Main";
 import About from "./components/About/About";
 import NotFound from "./components/NotFound/NotFound";
-
 import Blog from "./pages/Blog/Blog";
 import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
 import AllProjects from "./pages/AllProjects/AllProjects";
 import ScrollToTop from "react-scroll-to-top";
 import Contact from "./components/Contact/Contact";
+// import AnimatedCursor from "react-animated-cursor";
+
 function App() {
   const router = createBrowserRouter([
     {
@@ -44,7 +45,6 @@ function App() {
           path: "/all-projects",
           loader: () =>
             fetch("https://portfolio-server-chi.vercel.app/allProjects"),
-          // element: <Projects></Projects>,
           element: <AllProjects></AllProjects>,
         },
 

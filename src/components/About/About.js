@@ -14,7 +14,8 @@ const About = () => {
           About Me
         </h2>
         <img
-          src="https://i.ibb.co/c25GsfB/removed-bg.png"
+          // src="https://i.ibb.co/c25GsfB/removed-bg.png"
+          src="https://i.ibb.co/BwpBcL8/cropped-1.png"
           alt="removed-bg"
           border="0"
           className="my-image-2 img-fluid mt-5"

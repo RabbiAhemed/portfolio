@@ -36,9 +36,9 @@ const Contact = () => {
   return (
     <div className="my-5" id="contact-section" data-aos="zoom-in">
       <h2 className="fw-bold">Contact Me</h2>
-      <p className="font-para">
+      <p className="contact-subtitle text-center">
         Feel free to contact me by submitting the form below and I will get back
-        to you as soon as possible.
+        to you as soon as possible
       </p>
       <Container id="contact-container" className="mx-auto text-center">
         <Form className="text-start" ref={form} onSubmit={sendEmail}>
@@ -100,7 +100,7 @@ const Contact = () => {
                 <div className="paper"></div>
               </div>
             </div>
-            Send
+            Contact
           </button>
         </Form>
       </Container>

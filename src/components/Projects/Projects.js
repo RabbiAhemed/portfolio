@@ -23,7 +23,7 @@ const Projects = () => {
         Recent Projects
       </h2>
 
-      <div className="projects mx-5 my-5 text-center">
+      <div className="projects my-5 text-center">
         {projects?.length &&
           projects
             ?.slice(0, 3)
@@ -32,7 +32,11 @@ const Projects = () => {
             ))}
       </div>
       <Link className="" to="/all-projects">
-        <Button variant="light border border-dark" className="view fw-bold ">
+        <Button
+          variant="light border border-dark"
+          className="view fw-bold"
+          id="see-button"
+        >
           See All Projects
         </Button>
       </Link>

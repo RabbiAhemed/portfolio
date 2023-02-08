@@ -10,9 +10,10 @@ body a {
 }
 
 .my-image-2 {
-  width: 15%;
-  border: 0.1px solid aqua;
-  border-radius: 50%;
+  /* width: 15%; */
+  /* border: 0.1px solid aqua;
+  border-radius: 50%; */
+  width: 20%;
 }
 #my-name {
   font-family: "Solitreo";
@@ -90,8 +91,9 @@ body a {
     /* visibility: hidden; */
   }
   .my-image-2 {
+    /* width: 50%; */
+    /* border: 0.1px solid aqua;
+    border-radius: 50%; */
     width: 50%;
-    border: 0.1px solid aqua;
-    border-radius: 50%;
   }
 }

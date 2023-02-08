@@ -1,6 +1,4 @@
 import React from "react";
-// import Particles from "react-particles-js";
-// import particlesConfig from "../../ParticlesConfig";
 import "./Header.css";
 
 import { TypeAnimation } from "react-type-animation";
@@ -33,11 +31,12 @@ const Header = () => {
         </p>
 
         <a
-          href="https://drive.google.com/file/d/1XchSnB3eGOZ5sw6ZGByf8d1ndahG25B7/view?usp=sharing"
+          href="https://drive.google.com/file/d/1zTg84uC2T4qj6aaJLpYte798R0OGJyJN/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="download-button">
+          {/* the first two-layered download button */}
+          {/*  <button className="download-button">
             <div className="docs">
               <svg
                 className="css-i6dzq1"
@@ -75,20 +74,22 @@ const Header = () => {
                 <line y2="3" x2="12" y1="15" x1="12"></line>
               </svg>
             </div>
-          </button>
+          </button> */}
+
+          <button className="buttonDownload fw-bold">Download Resume</button>
         </a>
       </div>
 
       <div className="my-image animate__animated animate__fadeInRight">
         <img
-          src="https://i.ibb.co/c25GsfB/removed-bg.png"
+          // src="https://i.ibb.co/c25GsfB/removed-bg.png"
+          src="https://i.ibb.co/BwpBcL8/cropped-1.png"
           alt="removed-bg"
           border="0"
-          className="img-fluid rounded-circle"
+          // className="img-fluid rounded-circle"
+          className="img-fluid"
         />
       </div>
-      {/* <Test></Test> */}
-      {/* <Particles height="100vh" width="100vw" params={particlesConfig} /> */}
     </div>
   );
 };
