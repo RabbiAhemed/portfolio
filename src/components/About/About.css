@@ -74,6 +74,8 @@ body a {
   }
   .about-para {
     line-height: 2.5;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .informations {
     display: flex;
@@ -94,6 +96,13 @@ body a {
     /* width: 50%; */
     /* border: 0.1px solid aqua;
     border-radius: 50%; */
-    width: 50%;
+    width: 60%;
+  }
+  .about-para {
+    padding-left: 8px;
+    padding-right: 8px;
+    /* max-width: 380px; */
+    /* padding: 14%; */
+    /* background-color: rgb(246, 251, 255); */
   }
 }

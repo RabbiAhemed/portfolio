@@ -25,7 +25,7 @@ const Contact = () => {
       .then(
         (result) => {
           // alert(result.text);
-          alert("email sent successfully");
+          alert("Thank you!.Please check your email");
         },
         (error) => {
           alert(error.text);

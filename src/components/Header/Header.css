@@ -1,11 +1,12 @@
 .header {
-  padding: 10% 0%;
+  padding: 5% 0%;
   /* background-color: rgb(252, 251, 251); */
   /* background-color: #f8f9fa; */
 
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 10%;
   /* background: url(../../../common-bg.svg); */
   background-position: center;
 }
@@ -148,7 +149,7 @@
 .buttonDownload:after {
   width: 0;
   height: 0;
-  margin-left: 1.2px;
+  margin-left: 1.15px;
   margin-top: -7px;
   border-style: solid;
   border-width: 4px 4px 0 4px;
@@ -187,7 +188,16 @@
     opacity: 0.4;
   }
 }
+@media screen and (min-width: 768px) {
+  .my-name {
+    font-size: 90px;
+  }
+}
+
 @media screen and (max-width: 426px) {
+  .my-intro {
+    padding-right: 38%;
+  }
   .my-image {
     display: none;
   }
@@ -199,5 +209,16 @@
     font-weight: 600;
     font-family: "Rajdhani";
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .my-intro {
+    padding-right: 32%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .my-intro {
+    padding-right: 21%;
   }
 }

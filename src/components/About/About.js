@@ -18,7 +18,7 @@ const About = () => {
           src="https://i.ibb.co/BwpBcL8/cropped-1.png"
           alt="removed-bg"
           border="0"
-          className="my-image-2 img-fluid mt-5"
+          className="my-image-2 img-fluid"
         ></img>
         {/* <h2
           className="my-name pt-2 animate__animated animate__zoomIn"
@@ -27,7 +27,7 @@ const About = () => {
           MD. RABBI AHEMED
         </h2> */}
         {/*  that leads to the success of the overall product */}
-        <div className="about-para px-5">
+        <div className="about-para">
           <p>
             I'm a Frontend Web Developer building the Front-end of Websites and
             Web Applications. Check out some of my work in the Projects section.
