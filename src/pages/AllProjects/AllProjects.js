@@ -1,8 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import Project from "../../components/Project/Project";
 import "./AllProjects.css";
 import AOS from "aos";

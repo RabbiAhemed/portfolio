@@ -64,7 +64,6 @@ const ProjectDetail = () => {
             ))}
           </Carousel>
         </Container>
-        {/* project overview */}
         <Container className="mx-auto project-overview">
           <h3 className="fw-bold">Project Overview</h3>
 
