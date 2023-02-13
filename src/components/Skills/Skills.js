@@ -9,9 +9,22 @@ const Skills = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+  const myStyle = {
+    fontSize: "1.25rem",
+    textAlign: "center",
+    // paddingTop: "1%",
+    // color: "#555",
+    color: "#636e72",
+  };
   return (
     <div className="skills-section" id="skills" data-aos="zoom-in">
-      <h2 className="fw-bold">My Skills</h2>
+      <div className=" pb-4">
+        <h2 className="fw-bold">My Skills</h2>
+        <p style={myStyle} id="ms-subtitle">
+          Here you will find some information about my skills in terms of
+          programming and technology
+        </p>
+      </div>
       <Container className="skills text-center mx-auto">
         <div className="skill my-3">
           <h6>React</h6>

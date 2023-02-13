@@ -76,6 +76,8 @@ body a {
     line-height: 2.5;
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 1.1em;
+    text-align: justify;
   }
   .informations {
     display: flex;
@@ -88,15 +90,14 @@ body a {
   }
 }
 @media screen and (max-width: 426px) {
-  #facebook {
-    display: none;
-    /* visibility: hidden; */
-  }
   .my-image-2 {
     /* width: 50%; */
     /* border: 0.1px solid aqua;
     border-radius: 50%; */
     width: 60%;
+  }
+  #am-subtitle {
+    display: none;
   }
   .about-para {
     padding-left: 8px;

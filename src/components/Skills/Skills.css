@@ -25,5 +25,8 @@
   }
 }
 /* for tab */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 426px) {
+  #ms-subtitle {
+    display: none;
+  }
 }

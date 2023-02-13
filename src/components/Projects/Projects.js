@@ -17,11 +17,22 @@ const Projects = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+  const myStyle = {
+    fontSize: "1.25rem",
+    textAlign: "center",
+    // paddingTop: "1%",
+    color: "#555",
+    // color: "#636e72",
+  };
   return (
     <div className="project-section" data-aos="zoom-in">
-      <h2 className="fw-bold" id="projects">
-        Recent Projects
-      </h2>
+      <div id="projects">
+        <h2 className="fw-bold">Recent Projects</h2>
+        <p style={myStyle} id="rcp-subtitle">
+          Here you will find some of the projects that I created with each
+          project containing its details
+        </p>
+      </div>
 
       <div className="projects my-5 text-center">
         {projects?.length &&

@@ -7,12 +7,24 @@ const About = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+  const myStyle = {
+    fontSize: "1.25rem",
+    textAlign: "center",
+    // paddingTop: "1%",
+    color: "#555",
+    // color: "#636e72",
+  };
   return (
     <div>
       <div className="about" id="about" data-aos="zoom-in">
-        <h2 className="fw-bold" id="about-me">
-          About Me
-        </h2>
+        <div id="about-me">
+          <h2 className="fw-bold">About Me</h2>
+          <p style={myStyle} id="am-subtitle">
+            Here you will find more information about me, what I do, my
+            interests and plans about my career.
+          </p>
+        </div>
+
         <img
           // src="https://i.ibb.co/c25GsfB/removed-bg.png"
           src="https://i.ibb.co/BwpBcL8/cropped-1.png"
@@ -27,6 +39,7 @@ const About = () => {
           MD. RABBI AHEMED
         </h2> */}
         {/*  that leads to the success of the overall product */}
+
         <div className="about-para">
           <p>
             I'm a Frontend Web Developer building the Front-end of Websites and

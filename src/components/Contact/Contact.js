@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useEffect } from "react";
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Container, Form } from "react-bootstrap";
 import "./Contact.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,20 +33,34 @@ const Contact = () => {
       );
     e.target.reset();
   };
+  //
+  const myStyle = {
+    fontSize: "1.25rem",
+    textAlign: "center",
+    color: "#555",
+    // paddingTop: "1%",
+    // color: "#636e72",
+  };
   return (
     <div className="my-5" id="contact-section" data-aos="zoom-in">
-      <h2 className="fw-bold">Contact Me</h2>
-      <p className="contact-subtitle text-center">
-        Feel free to contact me by submitting the form below and I will get back
-        to you as soon as possible
-      </p>
+      <div>
+        <h2 className="fw-bold">Contact Me</h2>
+        <p
+          className="contact-subtitle text-center pb-5"
+          style={myStyle}
+          id="cm-subtitle"
+        >
+          Feel free to contact me by submitting the form below and I will get
+          back to you as soon as possible
+        </p>
+      </div>
       <Container id="contact-container" className="mx-auto text-center">
         <Form className="text-start" ref={form} onSubmit={sendEmail}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
             <Form.Control
               type="text"
-              placeholder="Your Name"
+              placeholder="your name"
               name="client-name"
             />
           </Form.Group>
@@ -56,7 +70,7 @@ const Contact = () => {
             </Form.Label>
             <Form.Control
               type="email"
-              placeholder="Enter email"
+              placeholder="your email address"
               required
               name="client-email-address"
             />
@@ -65,7 +79,7 @@ const Contact = () => {
             <Form.Label>Subject</Form.Label>
             <Form.Control
               type="text"
-              placeholder="Email Subject"
+              placeholder="email subject"
               name="client-email-subject"
             />
           </Form.Group>
@@ -77,7 +91,7 @@ const Contact = () => {
             <Form.Control
               as="textarea"
               rows={3}
-              placeholder="message"
+              placeholder="please type your message"
               required
               name="client-email-message"
             />
@@ -88,20 +102,22 @@ const Contact = () => {
               >
                 Submit
               </Button> */}
-          <button className="continue-application">
-            <div>
-              <div className="pencil"></div>
-              <div className="folder">
-                <div className="top">
-                  <svg viewBox="0 0 24 27">
-                    <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
-                  </svg>
+          <div className="mx-auto" id="continue-btn">
+            <button className="continue-application fw-bold">
+              <div>
+                <div className="pencil"></div>
+                <div className="folder">
+                  <div className="top">
+                    <svg viewBox="0 0 24 27">
+                      <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                    </svg>
+                  </div>
+                  <div className="paper"></div>
                 </div>
-                <div className="paper"></div>
               </div>
-            </div>
-            Contact
-          </button>
+              Contact
+            </button>
+          </div>
         </Form>
       </Container>
     </div>

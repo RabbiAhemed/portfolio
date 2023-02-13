@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Button, Carousel, Container } from "react-bootstrap";
 import { useLoaderData } from "react-router-dom";
 import "./ProjectDetail.css";
@@ -20,7 +19,7 @@ const ProjectDetail = () => {
         </h5>
         <a href={live} target="_blank" rel="noopener noreferrer">
           <Button variant="warning" className="text-white fw-bold mb-5">
-            LIVE LINK
+            Visit Website
           </Button>
         </a>
         <div className="mx-2">

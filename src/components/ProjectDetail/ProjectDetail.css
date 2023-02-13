@@ -24,6 +24,10 @@
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
+  #slider {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
   .screenshots {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -59,9 +63,17 @@
     margin-bottom: 20%;
   }
 }
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 426px) {
   #slider {
     padding-top: 8%;
     padding-bottom: 8%;
+  }
+}
+@media only screen and (max-width: 376px) {
+  #slider {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
