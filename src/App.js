@@ -68,6 +68,7 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router}></RouterProvider>
+
       <ScrollToTop smooth top={2200} />
     </div>
   );

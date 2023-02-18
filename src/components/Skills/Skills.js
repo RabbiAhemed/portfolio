@@ -13,8 +13,8 @@ const Skills = () => {
     fontSize: "1.25rem",
     textAlign: "center",
     // paddingTop: "1%",
-    // color: "#555",
-    color: "#636e72",
+    color: "#555",
+    // color: "#636e72",
   };
   return (
     <div className="skills-section" id="skills" data-aos="zoom-in">
