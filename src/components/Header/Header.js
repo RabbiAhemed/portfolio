@@ -82,7 +82,6 @@ const Header = () => {
 
       <div className="my-image animate__animated animate__fadeInRight">
         <img
-          // src="https://i.ibb.co/c25GsfB/removed-bg.png"
           src="https://i.ibb.co/BwpBcL8/cropped-1.png"
           alt="removed-bg"
           border="0"

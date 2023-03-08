@@ -9,6 +9,8 @@ import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
 import AllProjects from "./pages/AllProjects/AllProjects";
 import ScrollToTop from "react-scroll-to-top";
 import Contact from "./components/Contact/Contact";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 // import AnimatedCursor from "react-animated-cursor";
 
 function App() {
@@ -29,11 +31,19 @@ function App() {
         },
 
         {
-          path: "/about",
+          path: "/about-me",
           element: <About></About>,
         },
         {
-          path: "/contact",
+          path: "/skills",
+          element: <Skills></Skills>,
+        },
+        {
+          path: "/projects",
+          element: <Projects></Projects>,
+        },
+        {
+          path: "/contact-me",
           element: <Contact></Contact>,
         },
         {
@@ -43,8 +53,7 @@ function App() {
 
         {
           path: "/all-projects",
-          loader: () =>
-            fetch("https://portfolio-server-chi.vercel.app/allProjects"),
+          loader: () => fetch(`${process.env.REACT_APP_ALL_PROJECTS_URL}`),
           element: <AllProjects></AllProjects>,
         },
 
@@ -52,9 +61,7 @@ function App() {
           path: "/projects/:id",
           element: <ProjectDetail></ProjectDetail>,
           loader: async ({ params }) => {
-            return fetch(
-              `https://portfolio-server-chi.vercel.app/projects/${params.id}`
-            );
+            return fetch(`${process.env.REACT_APP_PROJECTS_URL}/${params.id}`);
           },
         },
         {

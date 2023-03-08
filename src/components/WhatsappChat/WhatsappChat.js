@@ -11,7 +11,6 @@ const WhatsappChat = () => {
         className="whatsapp-anchor"
       >
         <img
-          //   top={0}
           id="whatsappIcon"
           src="https://i.ibb.co/1GbsXNV/whatsapp-nobg.png"
           alt=""

@@ -6,7 +6,6 @@ import {
   FaRegCopyright,
   FaGithub,
   FaFacebook,
-  FaPhoneAlt,
 } from "react-icons/fa";
 // import { FaGithub} from "react-icons/fi";
 import mySvg from "../../rabbi.svg";

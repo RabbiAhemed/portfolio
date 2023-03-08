@@ -15,16 +15,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+}
+.skill-name {
+  text-align: start;
 }
 /* for desktop */
 @media screen and (min-width: 768px) {
   .skills {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  .skill {
+    width: 300px;
   }
 }
-/* for tab */
+/* for mobile */
 @media screen and (max-width: 426px) {
   #ms-subtitle {
     display: none;

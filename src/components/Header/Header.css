@@ -211,6 +211,12 @@
     font-size: 1.5rem;
   }
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .header {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 
 @media screen and (max-width: 376px) {
   .my-intro {

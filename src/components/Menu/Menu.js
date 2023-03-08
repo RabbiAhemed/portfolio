@@ -17,7 +17,7 @@ const Menu = () => {
                 src={mySvg}
                 width="100%"
                 height="50"
-                className="d-inline-block align-top rabbi py-2"
+                className="d-inline-block align-top rabbi py-2 links"
                 alt=""
               />
             </Link>
@@ -26,27 +26,52 @@ const Menu = () => {
           <Navbar.Collapse className="justify-content-end">
             <Nav className="me-auto text-black"></Nav>
             <Nav>
-              <a className="nav-link text-black fw-bold" href="home">
-                <Link to="/">Home</Link>
-              </a>
-              <a className="nav-link text-black fw-bold" href="#about">
+              <Link
+                to="/"
+                className="mx-2 text-black fw-bold links"
+                href="home"
+              >
+                {/* <Link to="/">Home</Link> */}
+                Home
+              </Link>
+              <Link
+                to="/about-me"
+                className="mx-2 text-black fw-bold links"
+                // href="#about"
+              >
                 About Me
-              </a>
-              <a className="nav-link text-black fw-bold" href="#skills">
+              </Link>
+              <Link
+                to="/skills"
+                className="mx-2 text-black fw-bold links"
+                // href="#skills"
+              >
                 Skills
-              </a>
-              <a className="nav-link text-black fw-bold" href="#projects">
+              </Link>
+              <Link
+                to="/all-projects"
+                className="mx-2 text-black fw-bold links"
+                href="#projects"
+              >
                 Projects
-              </a>
-              <a
-                className="nav-link text-black fw-bold"
+              </Link>
+              <Link
+                to="/contact-me"
+                className="mx-2 text-black fw-bold links"
                 href="#contact-section"
               >
                 Contact Me
-              </a>
-              <Link to="/blogs" className="mt-2" id="blog-link">
+              </Link>
+              <Link
+                to="/blogs"
+                className="mx-2 text-black fw-bold links"
+                href="#contact-section"
+              >
                 Blogs
               </Link>
+              {/* <Link to="/blogs" className="mt-2" id="blog-link">
+                Blogs
+              </Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

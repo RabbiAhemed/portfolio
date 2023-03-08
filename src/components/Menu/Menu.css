@@ -12,8 +12,9 @@
   font-weight: bold;
 }
 
-.links :hover {
-  color: rgb(104, 143, 143);
+.links:hover {
+  transform: scale(1.1);
+  text-shadow: 1px 1px #979797;
 }
 
 @media screen and (max-width: 425px) {
@@ -27,12 +28,6 @@
   }
 }
 
-/* .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: start;
-} */
 .menu img {
   width: 100%;
 }
